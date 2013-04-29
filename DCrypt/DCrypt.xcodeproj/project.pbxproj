@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD1108B0172EA87400C62B9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1108AF172EA87400C62B9D /* UIKit.framework */; };
+		CD1108B2172EA87400C62B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1108B1172EA87400C62B9D /* Foundation.framework */; };
+		CD1108B4172EA87400C62B9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1108B3172EA87400C62B9D /* CoreGraphics.framework */; };
+		CD1108BA172EA87400C62B9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD1108B8172EA87400C62B9D /* InfoPlist.strings */; };
+		CD1108BC172EA87400C62B9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1108BB172EA87400C62B9D /* main.m */; };
+		CD1108C0172EA87400C62B9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1108BF172EA87400C62B9D /* AppDelegate.m */; };
+		CD1108C2172EA87400C62B9D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1108C1172EA87400C62B9D /* Default.png */; };
+		CD1108C4172EA87400C62B9D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1108C3172EA87400C62B9D /* Default@2x.png */; };
+		CD1108C6172EA87400C62B9D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CD1108C5172EA87400C62B9D /* Default-568h@2x.png */; };
+		CD1108C9172EA87400C62B9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1108C8172EA87400C62B9D /* ViewController.m */; };
+		CD1108CC172EA87400C62B9D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD1108CA172EA87400C62B9D /* ViewController.xib */; };
+		CD1108D4172EA87400C62B9D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1108D3172EA87400C62B9D /* SenTestingKit.framework */; };
+		CD1108D5172EA87400C62B9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1108AF172EA87400C62B9D /* UIKit.framework */; };
+		CD1108D6172EA87400C62B9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD1108B1172EA87400C62B9D /* Foundation.framework */; };
+		CD1108DE172EA87400C62B9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD1108DC172EA87400C62B9D /* InfoPlist.strings */; };
+		CD1108E1172EA87400C62B9D /* DCryptTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD1108E0172EA87400C62B9D /* DCryptTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD1108D7172EA87400C62B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD1108A4172EA87400C62B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD1108AB172EA87400C62B9D;
+			remoteInfo = DCrypt;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD1108AC172EA87400C62B9D /* DCrypt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCrypt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1108AF172EA87400C62B9D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CD1108B1172EA87400C62B9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD1108B3172EA87400C62B9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CD1108B7172EA87400C62B9D /* DCrypt-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCrypt-Info.plist"; sourceTree = "<group>"; };
+		CD1108B9172EA87400C62B9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD1108BB172EA87400C62B9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CD1108BD172EA87400C62B9D /* DCrypt-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DCrypt-Prefix.pch"; sourceTree = "<group>"; };
+		CD1108BE172EA87400C62B9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD1108BF172EA87400C62B9D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD1108C1172EA87400C62B9D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CD1108C3172EA87400C62B9D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		CD1108C5172EA87400C62B9D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CD1108C7172EA87400C62B9D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD1108C8172EA87400C62B9D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD1108CB172EA87400C62B9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		CD1108D2172EA87400C62B9D /* DCryptTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DCryptTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD1108D3172EA87400C62B9D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD1108DB172EA87400C62B9D /* DCryptTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DCryptTests-Info.plist"; sourceTree = "<group>"; };
+		CD1108DD172EA87400C62B9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD1108DF172EA87400C62B9D /* DCryptTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCryptTests.h; sourceTree = "<group>"; };
+		CD1108E0172EA87400C62B9D /* DCryptTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DCryptTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD1108A9172EA87400C62B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1108B0172EA87400C62B9D /* UIKit.framework in Frameworks */,
+				CD1108B2172EA87400C62B9D /* Foundation.framework in Frameworks */,
+				CD1108B4172EA87400C62B9D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1108CE172EA87400C62B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1108D4172EA87400C62B9D /* SenTestingKit.framework in Frameworks */,
+				CD1108D5172EA87400C62B9D /* UIKit.framework in Frameworks */,
+				CD1108D6172EA87400C62B9D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD1108A3172EA87400C62B9D = {
+			isa = PBXGroup;
+			children = (
+				CD1108B5172EA87400C62B9D /* DCrypt */,
+				CD1108D9172EA87400C62B9D /* DCryptTests */,
+				CD1108AE172EA87400C62B9D /* Frameworks */,
+				CD1108AD172EA87400C62B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD1108AD172EA87400C62B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD1108AC172EA87400C62B9D /* DCrypt.app */,
+				CD1108D2172EA87400C62B9D /* DCryptTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD1108AE172EA87400C62B9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD1108AF172EA87400C62B9D /* UIKit.framework */,
+				CD1108B1172EA87400C62B9D /* Foundation.framework */,
+				CD1108B3172EA87400C62B9D /* CoreGraphics.framework */,
+				CD1108D3172EA87400C62B9D /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD1108B5172EA87400C62B9D /* DCrypt */ = {
+			isa = PBXGroup;
+			children = (
+				CD1108BE172EA87400C62B9D /* AppDelegate.h */,
+				CD1108BF172EA87400C62B9D /* AppDelegate.m */,
+				CD1108C7172EA87400C62B9D /* ViewController.h */,
+				CD1108C8172EA87400C62B9D /* ViewController.m */,
+				CD1108CA172EA87400C62B9D /* ViewController.xib */,
+				CD1108B6172EA87400C62B9D /* Supporting Files */,
+			);
+			path = DCrypt;
+			sourceTree = "<group>";
+		};
+		CD1108B6172EA87400C62B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1108B7172EA87400C62B9D /* DCrypt-Info.plist */,
+				CD1108B8172EA87400C62B9D /* InfoPlist.strings */,
+				CD1108BB172EA87400C62B9D /* main.m */,
+				CD1108BD172EA87400C62B9D /* DCrypt-Prefix.pch */,
+				CD1108C1172EA87400C62B9D /* Default.png */,
+				CD1108C3172EA87400C62B9D /* Default@2x.png */,
+				CD1108C5172EA87400C62B9D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD1108D9172EA87400C62B9D /* DCryptTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD1108DF172EA87400C62B9D /* DCryptTests.h */,
+				CD1108E0172EA87400C62B9D /* DCryptTests.m */,
+				CD1108DA172EA87400C62B9D /* Supporting Files */,
+			);
+			path = DCryptTests;
+			sourceTree = "<group>";
+		};
+		CD1108DA172EA87400C62B9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD1108DB172EA87400C62B9D /* DCryptTests-Info.plist */,
+				CD1108DC172EA87400C62B9D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD1108AB172EA87400C62B9D /* DCrypt */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1108E4172EA87400C62B9D /* Build configuration list for PBXNativeTarget "DCrypt" */;
+			buildPhases = (
+				CD1108A8172EA87400C62B9D /* Sources */,
+				CD1108A9172EA87400C62B9D /* Frameworks */,
+				CD1108AA172EA87400C62B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCrypt;
+			productName = DCrypt;
+			productReference = CD1108AC172EA87400C62B9D /* DCrypt.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD1108D1172EA87400C62B9D /* DCryptTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD1108E7172EA87400C62B9D /* Build configuration list for PBXNativeTarget "DCryptTests" */;
+			buildPhases = (
+				CD1108CD172EA87400C62B9D /* Sources */,
+				CD1108CE172EA87400C62B9D /* Frameworks */,
+				CD1108CF172EA87400C62B9D /* Resources */,
+				CD1108D0172EA87400C62B9D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD1108D8172EA87400C62B9D /* PBXTargetDependency */,
+			);
+			name = DCryptTests;
+			productName = DCryptTests;
+			productReference = CD1108D2172EA87400C62B9D /* DCryptTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD1108A4172EA87400C62B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Dondi Sasmita";
+			};
+			buildConfigurationList = CD1108A7172EA87400C62B9D /* Build configuration list for PBXProject "DCrypt" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD1108A3172EA87400C62B9D;
+			productRefGroup = CD1108AD172EA87400C62B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD1108AB172EA87400C62B9D /* DCrypt */,
+				CD1108D1172EA87400C62B9D /* DCryptTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD1108AA172EA87400C62B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1108BA172EA87400C62B9D /* InfoPlist.strings in Resources */,
+				CD1108C2172EA87400C62B9D /* Default.png in Resources */,
+				CD1108C4172EA87400C62B9D /* Default@2x.png in Resources */,
+				CD1108C6172EA87400C62B9D /* Default-568h@2x.png in Resources */,
+				CD1108CC172EA87400C62B9D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1108CF172EA87400C62B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1108DE172EA87400C62B9D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD1108D0172EA87400C62B9D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD1108A8172EA87400C62B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1108BC172EA87400C62B9D /* main.m in Sources */,
+				CD1108C0172EA87400C62B9D /* AppDelegate.m in Sources */,
+				CD1108C9172EA87400C62B9D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD1108CD172EA87400C62B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD1108E1172EA87400C62B9D /* DCryptTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD1108D8172EA87400C62B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD1108AB172EA87400C62B9D /* DCrypt */;
+			targetProxy = CD1108D7172EA87400C62B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD1108B8172EA87400C62B9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1108B9172EA87400C62B9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CD1108CA172EA87400C62B9D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1108CB172EA87400C62B9D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+		CD1108DC172EA87400C62B9D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD1108DD172EA87400C62B9D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD1108E2172EA87400C62B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD1108E3172EA87400C62B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD1108E5172EA87400C62B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCrypt/DCrypt-Prefix.pch";
+				INFOPLIST_FILE = "DCrypt/DCrypt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CD1108E6172EA87400C62B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCrypt/DCrypt-Prefix.pch";
+				INFOPLIST_FILE = "DCrypt/DCrypt-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CD1108E8172EA87400C62B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DCrypt.app/DCrypt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCrypt/DCrypt-Prefix.pch";
+				INFOPLIST_FILE = "DCryptTests/DCryptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CD1108E9172EA87400C62B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DCrypt.app/DCrypt";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DCrypt/DCrypt-Prefix.pch";
+				INFOPLIST_FILE = "DCryptTests/DCryptTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD1108A7172EA87400C62B9D /* Build configuration list for PBXProject "DCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1108E2172EA87400C62B9D /* Debug */,
+				CD1108E3172EA87400C62B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD1108E4172EA87400C62B9D /* Build configuration list for PBXNativeTarget "DCrypt" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1108E5172EA87400C62B9D /* Debug */,
+				CD1108E6172EA87400C62B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD1108E7172EA87400C62B9D /* Build configuration list for PBXNativeTarget "DCryptTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD1108E8172EA87400C62B9D /* Debug */,
+				CD1108E9172EA87400C62B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD1108A4172EA87400C62B9D /* Project object */;
+}
